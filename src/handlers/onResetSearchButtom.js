@@ -1,0 +1,31 @@
+export default function onResetSearchButtom(
+  setTrueStateCheckbox,
+  setTrueCreatedAtCheckbox,
+  setTrueTitleCheckbox,
+  setTrueUrlCheckbox,
+  setTrueBodyCheckbox,
+  setAGitHubUser,
+  setARepoUser,
+  setFalseGetData,
+  setADataGetted,
+  setADataWordCloudGetted,
+  setAResponseCode,
+  setAResponseMessage,
+  setAPhraseSearch,
+  setAResultToShowArray
+) {
+  setTrueStateCheckbox();
+  setTrueCreatedAtCheckbox();
+  setTrueTitleCheckbox();
+  setTrueUrlCheckbox();
+  setTrueBodyCheckbox();
+  setAGitHubUser("");
+  setARepoUser("");
+  setFalseGetData();
+  setADataGetted(null);
+  setADataWordCloudGetted(null);
+  setAResponseCode("");
+  setAResponseMessage("");
+  setAPhraseSearch("");
+  setAResultToShowArray([])
+}
