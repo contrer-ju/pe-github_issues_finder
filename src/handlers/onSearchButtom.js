@@ -7,7 +7,11 @@ export default function onSearchButtom(
   let counter = 1;
   if (dataGetted !== null) {
     for (let i = 0; i < dataGetted.length; i++) {
-      if (dataGetted[i]["title"].includes(phraseSearch)) {
+      if (
+        dataGetted[i]["title"]
+          .toLowerCase()
+          .includes(phraseSearch.toLowerCase())
+      ) {
         let rowToShow = {
           number: counter++,
           state: dataGetted[i]["state"],
